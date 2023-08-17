@@ -1,0 +1,28 @@
+{
+  "name": "proxy",
+  "version": "0.0.1",
+  "description": "nodejs反向代理，可代理任意域名",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomiaa12/proxy.git"
+  },
+  "keywords": [
+    "nodejs代理",
+    "代理",
+    "反向代理"
+  ],
+  "author": "tomiaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomiaa12/proxy/issues"
+  },
+  "homepage": "https://github.com/tomiaa12/proxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
